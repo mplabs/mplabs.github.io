@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Google Sheets API Quickstart</title>
+  <script async defer src="app.js"></script>
+  <script async defer src="https://apis.google.com/js/api.js"
+    onload="this.onload=function(){};handleClientLoad()"
+    onreadystatechange="if (this.readyState === 'complete') this.onload()"></script>
+  <style>
+  .hide {
+    opacity: 0.5;
+    pointer-events: none;
+  }
+  </style>
+</head>
+<body>
+
+  <h1>Google Sheets API Quickstart</h1>
+
+  <button id="authorize-button" class="hide">Authorize</button>
+  <button id="signout-button" class="hide">Sign Out</button>
+
+  <pre id="content"></pre>
+  
+</body>
+</html>
